@@ -2,68 +2,49 @@
 <html>
 <head>
     <link  href="/node_modules/bootstrap/dist/css/bootstrap.css"  rel="stylesheet"/>
+    <!--<link  href="/sidenav/sidenav.css" rel="stylesheet" >-->
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!--<script src="/sidenav/sidenav.js"></script>-->
-    <meta name="viewport"  content="'width=device-width,initial-scale=1.0">
     <style>
-        .test1{
-            height:300px;
-            border:1px solid #cccccc;
-            width: 200px;
-            word-wrap:break-word ;
-            word-break:keep-all;
+        #demo span{
+            /*float:left;*/
+            display:inline-block;
+            background-color: #e7e7e7;
         }
-        .test1:hover{
-            animation-name:example;
-            ainmation-duration:4s ;
+        #demodiv{
+            display:inline-block;
+            display:inline;
+            zoom:1;
+        }
+
+
+        div.ex1 {
+            width: 500px;
+            margin: auto;
+            border: 3px solid #73AD21;
+        }
+        div.ex2 {
+            max-width: 500px;
+            margin: auto;
+            border: 3px solid #73AD21;
         }
         img{
-            border: 1px solid #ddd ;
-            -webkit-border-radius:4px;
-            -moz-border-radius:4px;
-            border-radius:4px;
-            padding:5px ;
-        }
-        .img{
-            resize:horizontal ;
-            display:inline-block ;
-            margin:auto ;
-            width:50%;
-            /*display: inline-block;*/
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 5px;
-            transition: 0.3s;
-        }
-        .img>img{
             display:block ;
-            margin:auto ;
+            margin:0 auto;
         }
-
-        .img:hover{
-            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-        }
-
-        @media screen and (min-width:480px){
-            body{
-                background-color:lightgreen ;
-            }
-        }
-
     </style>
 </head>
 <body>
 
-<div>
-    <div class="test1">
-        This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.
-    </div>
+<div class="ex1">
+fa
 </div>
 
-<a href="" class="img">
-    <img src="http://image.zhangxinxu.com/image/study/s/s128/mm1.jpg" />
-</a>
+<div class="ex2">
+adf
+</div>
+
 
 <!--<div>-->
     <img src="http://image.zhangxinxu.com/image/study/s/s128/mm1.jpg" />
@@ -108,6 +89,7 @@
     </tr>
     </tbody>
 </table>
+
     <div class="container-fluid">
         <h1>Hello World!</h1>
         <div class="row">
@@ -148,6 +130,5 @@
             <div class="col-sm-3">4</div>
         </div>
     </div>
-
 </body>
 </html>
