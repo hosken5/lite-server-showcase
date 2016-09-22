@@ -2,11 +2,12 @@
 # Build and Release Folders
 bin/
 .idea
-node_modules
-npm-debug.log
+node_moduleslog
+npm-debug.
 bin-debug/
 bin-release/
-
+sidenav
+node_modules
 # Other files and folders
 .settings/
 
@@ -15,3 +16,4 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 # Created by .ignore support plugin (hsz.mobi)
+a/
